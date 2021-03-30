@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(40, 37, 53);
+  background-color: #1f1f1d;
 }
 
 main {
@@ -51,7 +51,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: #e75319;
 }
 
 form {
@@ -67,7 +67,7 @@ form {
 
 form button {
   width: 20%;
-  background-color: rgb(56, 56, 143);
+  background-color: #e76b19;
 }
 
 input {
@@ -82,7 +82,7 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #e76b19; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -91,6 +91,9 @@ button {
   display: inline-block;
   cursor: pointer;
   font-size: 1.25rem;
+}
+.chatfull {
+  color: #e75319;
 }
 
 button:disabled {
