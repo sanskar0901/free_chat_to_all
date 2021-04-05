@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1 className="chatfull">Globel Chat</h1>
+        <h1 className="chatfull">Global Chat</h1>
         <SignOut />
       </header>
 
